@@ -24,6 +24,12 @@ body {
 
 }
 
+@media (max-width: 991px) {
+  .samping{
+    display: none;
+  }
+}
+
 #theme:hover {
     cursor: pointer;
 }
