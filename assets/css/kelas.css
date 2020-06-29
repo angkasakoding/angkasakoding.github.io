@@ -4,6 +4,15 @@
 	}
 }
 
+
+.materi{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+
+
+
 .grey-bg{
 	background: #dedede;
 	padding: 5%
@@ -257,6 +266,12 @@ blockquote {
 @media only screen and (max-width: 991px) {
 	.cont{
 		width: 95%;
+	}
+	.materi{
+		display: block;
+	}
+	.materi img{
+		width: 50%;
 	}
 }
 
