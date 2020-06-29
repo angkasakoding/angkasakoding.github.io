@@ -7,6 +7,126 @@
 }
 
 
+body#darkmode .bar1,
+body#darkmode .bar2,
+body#darkmode .bar3 {
+  background-color: #EEEEEE;
+}
+
+body#darkmode .nav-item {
+  color: #EEEEEE;
+}
+
+body#darkmode .nav-sub-menu,
+body#darkmode .nav-item,
+body#darkmode .nav-sub-menu-item {
+  background: #2d2d2d;
+}
+
+body#darkmode .nav-sub-menu .nav-sub-menu-item,
+body#darkmode .nav-item .nav-sub-menu-item,
+body#darkmode .nav-sub-menu-item .nav-sub-menu-item {
+  color: white;
+}
+
+body#darkmode ::-webkit-input-placeholder {
+  color: #EEEEEE;
+}
+
+body#darkmode ::-moz-placeholder {
+  color: #EEEEEE;
+}
+
+body#darkmode :-ms-input-placeholder {
+  color: #EEEEEE;
+}
+
+body#darkmode ::-ms-input-placeholder {
+  color: #EEEEEE;
+}
+
+body#darkmode *,
+body#darkmode ::placeholder,
+body#darkmode .tagify__input::before {
+  color: #EEEEEE;
+}
+
+body#darkmode .subject a {
+  color: #7B99B9;
+}
+
+body#darkmode .tagify {
+  --tag-bg: #353535;
+}
+
+body#darkmode .cards {
+  box-shadow: 0 4px 8px 0 #272727, 0 6px 20px 0 #272727;
+}
+
+body#darkmode img.icons,
+body#darkmode .trix-button {
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+body#darkmode .trix-editor pre {
+  background: #5A5B5E;
+}
+
+body#darkmode .button.is-plain {
+  border: 1px solid #EEEEEE;
+  background: none;
+}
+
+body#darkmode .is-blueSK {
+  color: #426994;
+}
+
+body#darkmode footer,
+body#darkmode .dropdown .box_body,
+body#darkmode .input-wrapper,
+body#darkmode .tagify__dropdown__wrapper,
+body#darkmode .tagify,
+body#darkmode .input,
+body#darkmode textarea,
+body#darkmode .trix-editor,
+body#darkmode .trix-dialog,
+body#darkmode .grey-bg,
+body#darkmode .swal2-popup {
+  background: #353535;
+  color: white;
+}
+
+#theme {
+  font-size: 25px
+}
+#theme:hover {
+  cursor: pointer
+}
+body#darkmode {
+  background: #181E25;
+  color: rgb(227, 227, 227)
+}
+
+body#darkmode footer a,
+body#darkmode .dropdown .box_body a,
+body#darkmode .input-wrapper a,
+body#darkmode .tagify__dropdown__wrapper a,
+body#darkmode .tagify a,
+body#darkmode .input a,
+body#darkmode textarea a,
+body#darkmode .trix-editor a,
+body#darkmode .trix-dialog a,
+body#darkmode .grey-bg a,
+body#darkmode .swal2-popup a {
+  color: white;
+}
+
+.is-hidden {
+  display: none;
+}
+
+
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -1082,7 +1202,7 @@ textarea:focus,
 }
 
 .padding-around {
-  padding: 5%;
+  padding: 4%;
 }
 
 .v-center {
@@ -1112,7 +1232,7 @@ textarea:focus,
 }
 
 #videoWrapper {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -1129,7 +1249,7 @@ textarea:focus,
   top: 45%;
   width: 0;
   height: 0;
-  border-top: 20px solid transparent;
+  border-top: 20px solid black;
   border-bottom: 20px solid transparent;
 }
 

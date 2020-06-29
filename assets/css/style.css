@@ -28,6 +28,9 @@ body {
   .samping{
     display: none;
   }
+  .containerr{
+    width: 100%;
+  }
 }
 
 #theme:hover {
