@@ -144,14 +144,6 @@ body#darkmode .swal2-popup a {
 
 
 
-.line {
-  border-bottom: 2px solid black;
-  width: 100px;
-  display: block;
-  margin-top: 10px
-}
-
-
 * {
   box-sizing: border-box;
   margin: 0px;
