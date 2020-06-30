@@ -13,6 +13,11 @@ body {
   color: #444444;
 }
 
+.tentang {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
 
 .card-deck{
   width: 80%;
@@ -31,6 +36,9 @@ body {
     width: 70%;
     margin: 0% auto
   }
+  .tentang{
+    display: block;
+  }
 
 }
 @media (max-width: 768px) {
@@ -38,6 +46,9 @@ body {
     display: block;
     width: 85%;
     margin: 0% auto
+  }
+  .tentang{
+    
   }
 }
 
