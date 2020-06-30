@@ -24,7 +24,7 @@
 }
 
 #videoWrapper {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -223,6 +223,7 @@ p {
 a {
 	color: rgb(87, 87, 87);
 }
+
 header {
 	display: flex;
 	justify-content: space-between;
@@ -413,17 +414,18 @@ a:active {
 	font-size: 1.5rem;
 	font-weight: bold
 }
-.boxes {
+.boxess {
 	display: flex;
 	align-items: center;
 	padding: 5px 10px;
+	padding-top: 23px;
 	justify-content: space-between;
-	margin-top: 10px;
+	margin-top: 15px;
 	box-shadow: 2px 2px 2px 2px #EFEFF4;
 	border-radius: 10px
 }
 
-.darkmode .boxes{
+.darkmode .boxess{
 	box-shadow: 2px 2px 2px 2px #313942;
 }
 
@@ -433,20 +435,24 @@ a:active {
 	margin-top: 10px;
 }
 
-.boxes .pic {
+.boxess .pic {
 	margin-right: 15px;
 }
 
-.boxes:hover {
+.boxess:hover {
 	background: #EFEFF4;
+	color: black;
+	text-decoration: none;
 }
-.darkmode .boxes:hover {
-	background: #313942
+.darkmode .boxess:hover {
+	background: #313942;
+	color: #fff;
+
 }
-.boxes_active {
+.boxess_active {
 	color: #A168FB
 }
-.boxes_active .arrow-right {
+.boxess_active .arrow-right {
 	border-left-color: #A168FB
 }
 .arrow-right {
@@ -464,9 +470,9 @@ a:active {
 	border-left: 15px solid white
 }
 #content a {
-	text-decoration: underline
+	
 }
-.boxes {
+.boxess {
 	text-decoration: none
 }
 /*footer {
@@ -488,49 +494,10 @@ footer a{
 	text-decoration: none;
 }
 */
-.footer {
-	display: flex;
-	font-size: 1.1em;
-	align-items: center;
-	justify-content: space-between;
-	padding: 3%
-}
 
-.o {
-	display: flex;
-	font-size: 0.8rem;
-	align-items: center;
-	justify-content: flex-start;
-	margin-top: 3px
-}
-
-.img-small {
-	width: 80px;
-	height: 80px;
-	border-radius: 50%
-}
-.img-big {
-	width: 150px;
-	height: 150px;
-
-}
-.footer img {
-	margin-right: 20px
-}
-.o img {
-	margin-right: 20px
-}
 .darkmode footer {
-	justify-content: space-between;
-	align-items: center;
-	text-align: center;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	transform: translate(-50%);
-	margin-left: 50%;
-	padding: 8px 5%;
+
 	background: #2A343E;
-	width: 60%;
+
 	color: white
 }

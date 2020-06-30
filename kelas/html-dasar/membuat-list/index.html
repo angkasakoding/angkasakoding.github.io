@@ -11,7 +11,9 @@
     <title> Membuat list | @angkasakoding </title>
 
     
+    <link href="../../../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../../assets/css/kelas.css">
+    <link rel="stylesheet" href="../../../assets/css/style2.css">
     <link rel="shortcut icon" href="../../../favicon.ico">
     <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
@@ -19,27 +21,81 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.plyr.io/3.6.2/plyr.css" />
 
-    <link href="../../../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link href="../../../assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+  <link href="../../../assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="../../../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="../../../assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="../../../assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="../../../assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
    
 </head>
 <body>
-  <div class="cont" >
-<div class="">
-<div style="position: relative; bottom: -25px" id="theme" class="toggle-container">
+
+
+<!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+
+      <a href="https://angkasakoding.com/"><img width="20%" src="../../../assets/img/front/logo.png" alt="" class="img-fluid"></a>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class=""><a href="https://angkasakoding.com/kelas">Mau belajar apa?</a></li>
+          <li><a href="https://angkasakoding.com/kelas">Kelas</a></li>
+          <li><a href="https://angkasakoding.com/blog">Blog</a></li>
+          <!--li class="drop-down"><a href="">Kelas</a>
+            <ul>
+              <li><a href="#">SD</a></li>
+              <li class="drop-down"><a href="#">Deep Drop Down</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">SMP</a></li>
+              <li><a href="#">SMA</a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </li-->
+          <li><a href="https://angkasakoding.com/forum">Forum</a></li>
+          <li><a href="https://angkasakoding.com/podcast">Podcast</a></li>
+
+        </ul>
+      </nav><!--nav-menu -->
+
+      <!--a href="courses.html" class="get-started-btn">Login</a-->
+    <div id="theme" class="toggle-container get-started-btn">
       <div onclick="setDarkMode(true)" id="darkBtn" class="">
         <label class="buka" id="switch" name="theme" /></label>
       </div>
       <div onclick="setDarkMode(false)" id="lightBtn" class="is-hidden">
             <label class="tutup" id="switch" name="theme" /></label>
-        </div>
+      </div>
     </div>
+
+    <style type="text/css">
+      .darkmode #theme{
+        background: #181d21;
+      }
+      #theme{
+        background: #f9faf9;
+      }
+    </style>
+
+    </div>
+  </header><!-- End Header -->
+  <br>
+
+  <div class="cont" >
+<div class="">
     <br>
     <div class="">
-      <font style="text-decoration: none;" class=o>
-                <font face="" size="5em" ><a href="https://angkasakoding.com/kelas">< Keluar </a></font>
-        </font>
+
     <br>
     <br>
 
@@ -74,133 +130,58 @@
         <section>
           <div class="listSearch">
 
-
             <span style="font-weight: bold; font-size: 1.3em" >❱ Persiapan</span>
             <div class="line" ></div>
             
-            <a href="https://angkasakoding.com/kelas/html-dasar/intro" class=boxes>
-              <p style="font-size: 1.2em" >1. Intro html </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/intro" class=boxess>
+              <p style="font-size: 1.2em" >1. Intro html </p>
+              <p>▶</p>
             </a>
-            <a href="https://angkasakoding.com/kelas/html-dasar/menyimpan-file" class=boxes>
-              <p style="font-size: 1.2em" >2. Menyimpan file </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/menyimpan-file" class=boxess>
+              <p style="font-size: 1.2em" >2. Menyimpan file </p>
+              <p>▶</p>
             </a>
-            <a href="https://angkasakoding.com/kelas/html-dasar/tag" class=boxes>
-              <p style="font-size: 1.2em" >3. Tag html </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/tag" class=boxess>
+              <p style="font-size: 1.2em" >3. Tag html </p>
+              <p>▶</p>
             </a>
             <br>
 
             <span style="font-weight: bold; font-size: 1.3em">❱ Struktur dasar</span>
             <div class="line" ></div>
-            <a href="https://angkasakoding.com/kelas/html-dasar/paragraf-heading" class=boxes>
-              <p style="font-size: 1.2em" >4. Paragraf & heading </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/paragraf-heading" class=boxess>
+              <p style="font-size: 1.2em" >4. Paragraf & heading </p>
+              <p>▶</p>
             </a>
-            <a href="https://angkasakoding.com/kelas/html-dasar/hyperlink" class=boxes>
-              <p style="font-size: 1.2em" >5. Hyperlink </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/hyperlink" class=boxess>
+              <p style="font-size: 1.2em" >5. Hyperlink </p>
+              <p>▶</p>
             </a>
-            <a href="https://angkasakoding.com/kelas/html-dasar/menampilkan-gambar" class=boxes>
-              <p style="font-size: 1.2em" >6. Menampilkan gambar </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/menampilkan-gambar" class=boxess>
+              <p style="font-size: 1.2em" >6. Menampilkan gambar </p>
+              <p>▶</p>
             </a>
-            <a href="https://angkasakoding.com/kelas/html-dasar/iframe" class=boxes>
-              <p style="font-size: 1.2em" >7. Iframe </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/iframe" class=boxess>
+              <p style="font-size: 1.2em" >7. Iframe </p>
+              <p>▶</p>
             </a>
-            <a href="https://angkasakoding.com/kelas/html-dasar/membuat-list" class=boxes>
-              <p style="font-size: 1.2em" >8. Membuat list </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/membuat-list" class=boxess>
+              <p style="font-size: 1.2em" >8. Membuat list </p>
+              <p>▶</p>
             </a>
-            <a href="https://angkasakoding.com/kelas/html-dasar/mengubah-format-text" class=boxes>
-              <p style="font-size: 1.2em" >9. Mengubah format text </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/mengubah-format-text" class=boxess>
+              <p style="font-size: 1.2em" >9. Mengubah format text </p>
+              <p>▶</p>
             </a>
-            <a href="https://angkasakoding.com/kelas/html-dasar/membuat-form" class=boxes>
-              <p style="font-size: 1.2em" >10. Membuat form </p> ▶
+            <a href="https://angkasakoding.com/kelas/html-dasar/membuat-form" class=boxess>
+              <p style="font-size: 1.2em" >10. Membuat form </p>
+              <p>▶</p>
             </a>
 
-
-            <!--a href="https://selembarkertas.club/episodes/7/" class=boxes>
-              <p>
-                <font size="2rem" color="grey" >04 MAY 2020</font>
-                <br> 
-                <font size="3em" >Eps 07 : Tak usah risau</font>
-                <br>
-                <br>
-                <font class="b">▶ Play</font> 
-              </p>
-            </a>
-            <hr>
-            <a href="https://selembarkertas.club/episodes/6/" class=boxes>
-              <p>
-                <font size="2rem" color="grey" >28 FEB 2020</font>
-                <br> 
-                <font size="3em" >Eps 06 : Hobi, Passion & Uang</font>
-                <br>
-                <font size="2rem" color="grey" >Cal Newport menginspirasi tentang bagaimana lu harus memulai perjalanan karir yang luar biasa. peraturan pertama adalah bahwa Passion itu bisa Menjebak..
-                </font><br>
-                <font class="b">▶ Play</font> 
-              </p>
-            </a>
-            <hr>
-            <a href="https://selembarkertas.club/episodes/5/" class=boxes>
-              <p>
-                <font size="2rem" color="grey" >26 FEB 2020</font>
-                <br> 
-                <font size="3em" >Eps 05 : Distraksi saat Belajar</font>
-                <br>
-                <font size="2rem" color="grey" >kamu sedang belajar karna besok ada ujian, lalu kamu search materi2 yg tidak tertulis dibuku kamu menggunakan hp, tiba tiba perhatian mu teralih oleh yt karna..
-                </font><br>
-                <font class="b">▶ Play</font> 
-              </p>
-            </a>
-            <hr>
-            <a href="https://selembarkertas.club/episodes/4/" class=boxes>
-              <p>
-                <font size="2rem" color="grey" >8 FEB 2020</font>
-                <br> 
-                <font size="3em" >Eps 04 : #NgobSans Setelah lulus mau kemana? (ft. mhs UPB)</font>
-                <br>
-                <font size="2rem" color="grey" >Lanjutan dari eps 03. jika kita gagal jangan berhenti sampai situ, teruslah berusaha sampai mendapatkan yg tebaik, jangan kaya..
-                </font><br>
-                <font class="b">▶ Play</font> 
-              </p>
-            </a>
-            <hr>
-            <a href="https://selembarkertas.club/episodes/3/" class=boxes>
-              <p> 
-                <font size="2rem" color="grey" >1 FEB 2020</font>
-                <br> 
-                <font size="3em" >Eps 03 : #NgobSans seputar Teknik Informatika (ft. mhs UPB)</font>
-                <br>
-                <font size="2rem" color="grey" >emang bener ya anak TI itu identik sama yg nama nya HACKER? Denger dulu nih sebelum anda memilih jurusan teknik..
-                </font><br>
-                <font class="b">▶ Play</font>  
-              </p>
-            </a>
-            <hr>
-            <a href="https://selembarkertas.club/episodes/2/" class=boxes>
-              <p>
-                <font size="2rem" color="grey" >15 JAN 2020</font>
-                <br> 
-                <font size="3em" >Eps 02 : Baik ke orang</font>
-                <br>
-                <font size="2rem" color="grey" >Ketika ada permasalahan kecil, kita datang sebagai pemecah masalah. Ketika ada orang yang sedang kesusahan, kita..
-                </font><br>
-                <font class="b">▶ Play</font>  
-              </p>
-            </a>
-            <hr>
-            <a href="https://selembarkertas.club/episodes/1/" class=boxes>
-              <p>
-                <font size="2rem" color="grey" >4 JUN 2019</font>
-                <br> 
-                <font size="3em" >Eps 01 : Kopi</font>
-                <br>
-                <font size="2rem" color="grey" >Memfilosofikan kopi bisa dikatakan memberi pandangan hidup dan memaknai kehidupan dari secangkir kopi, tidak banyak orang..
-                </font><br>
-                <font class="b">▶ Play</font> 
-              </p>
-            </a-->
 
           </div>
         </section>
       </main>
-         <br>
 
          <div id="disqus_thread"></div>
 <script>
@@ -231,16 +212,76 @@ new Vue({delimiters:['${','}'],el:'#main',data:{items:items,currentItem:"",searc
 return itemWithFilter}}})})();</script>
 
 <br>
-      <div class="footer">
-        <a href="https://angkasakoding.com">2020 kelas@angkasakoding
-          </a>
-        <div class="social-links text-center text-md-right pt-3 pt-md-0">
-          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="https://instagram.com/angkasakoding" class="instagram"><i class="bx bxl-instagram"></i></a>
+    
+
+
+  
+  </div>
+
+
+    
+  </div>
+</div>
+<footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <img width="250px" src="../../../assets/img/front/logo.png">
+            <p><br>
+              Jawa Barat, <br>
+              Indonesia <br><br>
+              <strong>Phone:</strong> +62 896 3752 4919<br>
+              <strong>Email:</strong> info@angkasakoding.space<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Mau kemana lagi?</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://angkasakoding.com/kelas">Kelas</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://angkasakoding.com/mentor">Mentor</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://angkasakoding.com/blog">Blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://angkasakoding.com/forum">Forum</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Non teknis</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://fajars.space">Baca artikel / blog</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://selembarkertas.club">Podcast</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Ikuti perjalanan Angkasa koding</h4>
+            <p>Masukkan email kamu</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
         </div>
       </div>
-      <br>
+    </div>
+
+    <div class="container d-md-flex py-3">
+
+      <div class="mr-md-auto text-center text-md-left">
+        <h4> 2020 @angkasakoding </h4>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://instagram.com/angkasakoding" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+
       
 <script type="text/javascript">
   //check localstorage
@@ -270,7 +311,20 @@ return itemWithFilter}}})})();</script>
     <script>
       const player = new Plyr("#player");
     </script>
-    </div>
+    <!-- Vendor JS Files -->
+  <script src="../../../assets/vendor/jquery/jquery.min.js"></script>
+  <script src="../../../assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../../../assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="../../../assets/vendor/php-email-form/validate.js"></script>
+  <script src="../../../assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="../../../assets/vendor/counterup/counterup.min.js"></script>
+  <script src="../../../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="../../../assets/vendor/aos/aos.js"></script>
+  <script src="../../../assets/js/search.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="../../../assets/js/main.js"></script>
+
     
 </body>
 </html>
