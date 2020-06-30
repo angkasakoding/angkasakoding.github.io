@@ -9,8 +9,36 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "oxy";
+  font-family: 'Quicksand', sans-serif;
   color: #444444;
+}
+
+
+.card-deck{
+  width: 80%;
+  margin: 0% auto;
+}
+.hk-1, .hk-2, .hk-3{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 15px;
+  position: relative;
+}
+
+@media (max-width: 991px) {
+  .card-deck{
+    display: block;
+    width: 70%;
+    margin: 0% auto
+  }
+
+}
+@media (max-width: 768px) {
+  .card-deck{
+    display: block;
+    width: 85%;
+    margin: 0% auto
+  }
 }
 
 .line {
@@ -55,11 +83,11 @@ body.darkmode a{
 }
 
 a {
-  color: #5fcf80;
+  color: grey;
 }
 
 a:hover {
-  color: #86db9f;
+  color: lightgrey;
   text-decoration: none;
 }
 
@@ -156,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #15273d;
+  background: #F8F9FA;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -182,10 +210,11 @@ h1, h2, h3, h4, h5, h6 {
   max-height: 40px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   #header .logo {
     font-size: 28px;
   }
+
 }
 
 /*--------------------------------------------------------------
@@ -211,7 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #fff;
+  color: #000;
   transition: 0.3s;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
@@ -219,7 +248,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: lightgrey;
+  color: grey;
 }
 
 .nav-menu .drop-down ul {
@@ -342,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #000;
 }
 
 .mobile-nav {
@@ -377,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #17a2b8;
+  color: grey;
   text-decoration: none;
 }
 
