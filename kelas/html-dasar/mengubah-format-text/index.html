@@ -64,28 +64,21 @@
           </li-->
           <li><a href="https://angkasakoding.com/forum">Forum</a></li>
           <li><a href="https://angkasakoding.com/podcast">Podcast</a></li>
+          <li>
+            <div id=theme>
+              <div onclick=setDarkMode(true) id=darkBtn><a >Dark mode</a></div>
+            <div onclick=setDarkMode(false) id=lightBtn class=is-hidden><a>Light mode</a>
+            </div>
+          </div>
+          </li>
 
         </ul>
       </nav><!--nav-menu -->
 
       <!--a href="courses.html" class="get-started-btn">Login</a-->
-    <div id="theme" class="toggle-container get-started-btn">
-      <div onclick="setDarkMode(true)" id="darkBtn" class="">
-        <label class="buka" id="switch" name="theme" /></label>
-      </div>
-      <div onclick="setDarkMode(false)" id="lightBtn" class="is-hidden">
-            <label class="tutup" id="switch" name="theme" /></label>
-      </div>
-    </div>
+    
 
-    <style type="text/css">
-      .darkmode #theme{
-        background: #181d21;
-      }
-      #theme{
-        background: #f9faf9;
-      }
-    </style>
+
 
     </div>
   </header><!-- End Header -->
