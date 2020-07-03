@@ -15,8 +15,8 @@
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 .darkmode #header{
-	background: #2D2D2D;
-  box-shadow: 0px 0 18px #2D2D2D;
+	background: #2C2C2C;
+  box-shadow: 0px 0 18px #2C2C2C;
 }
 
 #header .logo {
@@ -488,7 +488,7 @@ a:hover{
 }
 
 .darkmode #footer{
-	background: black;
+	background: #1f1f1f;
 	color: white
 }
 
@@ -497,7 +497,7 @@ a:hover{
   background: #f9faf9;
 }
 .darkmode #footer .footer-top {
-  background: #353535;
+  background: #2C2C2C;
   color: #fff
 }
 
