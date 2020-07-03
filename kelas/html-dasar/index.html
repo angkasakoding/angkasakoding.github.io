@@ -148,39 +148,7 @@
         </main>
 
 </div>
-<br><br>
-         <div id="disqus_thread"></div>
-<script>
-
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://angkasa-koding.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-<script src=https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js></script>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script>(async()=>{const res=await fetch('/index.json');const itemsRaw=await res.json();const items=itemsRaw.data
-new Vue({delimiters:['${','}'],el:'#main',data:{items:items,currentItem:"",search_q:"",loading:true,},methods:{play:function(item){this.currentItem=item}},computed:{filteredItems:function(){let itemWithFilter=this.items.filter((item)=>{return item.title.toLowerCase().includes(this.search_q.toLowerCase())})
-return itemWithFilter}}})})();</script>
-
 <br>
-    
-
-
   
   </div>
 
@@ -272,7 +240,6 @@ return itemWithFilter}}})})();</script>
       document.body.classList.toggle("darkmode");
   }
 </script>
-<script id="dsq-count-scr" src="//angkasa-koding.disqus.com/count.js" async></script>
 <script src="https://cdn.plyr.io/3.6.2/plyr.js"></script>
     <script>
       const player = new Plyr("#player");
