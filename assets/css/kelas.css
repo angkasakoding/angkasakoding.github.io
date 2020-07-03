@@ -415,6 +415,7 @@ a:active {
 	font-size: 1.5rem;
 	font-weight: bold
 }
+
 .boxess {
 	display: flex;
 	align-items: center;
@@ -422,12 +423,12 @@ a:active {
 	padding-top: 23px;
 	justify-content: space-between;
 	margin-top: 15px;
-	box-shadow: 2px 2px 2px 2px #EFEFF4;
+	box-shadow: 0 4px 8px 0 #EEEEEE, 0 6px 20px 0 #EEEEEE;
 	border-radius: 10px
 }
 
 .darkmode .boxess{
-	box-shadow: 2px 2px 2px 2px #313942;
+	box-shadow: 0 4px 8px 0 #000, 0 6px 20px 0 #000;
 }
 
 .boxeses {
