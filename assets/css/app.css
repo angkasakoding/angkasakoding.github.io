@@ -56,7 +56,9 @@ img {
   -webkit-box-direction: normal;
           flex-direction: column;
 }
-
+.darkmode .cards{
+  box-shadow: 0 4px 8px 0 #282828, 0 6px 20px 0 #282828;
+}
 .cards.is-block {
   display: block;
 }
@@ -108,10 +110,30 @@ img {
 }
 
 
+.darkmode .h4-kelas{
+  color: #EEEEEE
+}
 
+.darkmode .judul-kelas{
+  color: #EEEEEE
+}
+
+.darkmode p{
+  color: #EEEEEE
+}
+.h4-kelas{
+  color: #000
+}
+
+p{
+  color: #525050
+}
 
 a.cards:hover {
   box-shadow: 0 10px 20px 0 #EEEEEE, 0 10px 30px 0 #EEEEEE;
+}
+.darkmode a.cards:hover {
+  box-shadow: 0 10px 20px 0 #282828, 0 10px 30px 0 #282828;
 }
 
 .is-hidden {
@@ -136,7 +158,7 @@ a.cards:hover {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 0px;
 }
 
@@ -146,6 +168,10 @@ a.cards:hover {
   line-height: 2.2rem;
   color: #525050;
   font-weight: normal;
+}
+.darkmode .hero h2 {
+  color: #eee;
+
 }
 
 .hero img {

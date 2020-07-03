@@ -15,7 +15,8 @@
   box-shadow: 0px 0 18px rgba(55, 66, 59, 0.08);
 }
 .darkmode #header{
-	background: #181d21;
+	background: #2D2D2D;
+  box-shadow: 0px 0 18px #2D2D2D;
 }
 
 #header .logo {
@@ -225,7 +226,7 @@ a:hover{
   padding: 10px 0;
 }
 .darkmode .mobile-nav{
-	background: #313942
+	background: #282828
 }
 
 .mobile-nav * {
@@ -485,6 +486,7 @@ a:hover{
   font-size: 14px;
   background: #eef0ef;
 }
+
 .darkmode #footer{
 	background: black;
 	color: white
@@ -495,7 +497,7 @@ a:hover{
   background: #f9faf9;
 }
 .darkmode #footer .footer-top {
-  background: #181d21;
+  background: #353535;
   color: #fff
 }
 

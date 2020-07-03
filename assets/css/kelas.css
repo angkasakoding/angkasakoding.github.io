@@ -19,7 +19,7 @@
 }
 
 .darkmode .grey-bg{
-	background: #313942;
+	background: #282828;
 	padding: 5%
 }
 
@@ -238,7 +238,7 @@ header {
 	cursor: pointer
 }
 body.darkmode {
-	background: #181E25;
+	background: #2D2D2D;
 	color: rgb(227, 227, 227)
 }
 body.darkmode a {
@@ -428,7 +428,7 @@ a:active {
 }
 
 .darkmode .boxess{
-	box-shadow: 0 4px 8px 0 #000, 0 6px 20px 0 #000;
+	box-shadow: 0 4px 8px 0 #282828, 0 6px 20px 0 #282828;
 }
 
 .boxeses {
@@ -447,7 +447,7 @@ a:active {
 	text-decoration: none;
 }
 .darkmode .boxess:hover {
-	background: #313942;
+	background: #282828;
 	color: #fff;
 
 }
